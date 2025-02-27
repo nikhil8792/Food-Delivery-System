@@ -1,0 +1,154 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff3e0; /* Light orange background */
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #fc8019; /* Swiggy-inspired orange */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Checkout Section */
+.checkout-container {
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.checkout-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #fc8019; /* Orange text */
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: none;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border-color: #fc8019;
+    background-color: #fff8f1;
+    box-shadow: 0px 0px 5px rgba(252, 128, 25, 0.3);
+}
+
+/* Payment Options */
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.payment-options div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="radio"] {
+    accent-color: #fc8019;
+}
+
+/* Button Styles */
+.btn-place-order {
+    display: block;
+    width: 100%;
+    background-color: #fc8019;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-place-order:hover {
+    background-color: #e66913;
+    transform: scale(1.02);
+}
+
+.btn-place-order:active {
+    background-color: #cc5a10;
+}
+
+/* Footer */
+.footer {
+    background-color: #ffe3c2;
+    color: #666;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .checkout-container {
+        padding: 1rem;
+    }
+
+    .checkout-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-place-order {
+        font-size: 0.9rem;
+    }
+}
+

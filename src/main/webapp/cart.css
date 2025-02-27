@@ -1,0 +1,160 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5b4; /* Light orange background */
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 24px;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Cart Container */
+.cart-container {
+    margin-top: 20px;
+}
+
+/* Individual Cart Item */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+/* Cart Item Details */
+.cart-item-details h3 {
+    font-size: 18px;
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.cart-item-details p {
+    margin: 0;
+    color: #555;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Cart Summary */
+.cart-summary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-summary p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* General Button Styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Quantity Buttons */
+.btn-quantity {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-quantity:hover {
+    background-color: #0056b3;
+}
+
+.btn-quantity:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Remove Button */
+.btn-remove {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-remove:hover {
+    background-color: #c82333;
+}
+
+.btn-remove:active {
+    background-color: #a71d2a;
+}
+
+/* Add More Items Button */
+.btn-add {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-add:hover {
+    background-color: #e0a800;
+}
+
+/* Checkout Button */
+.btn-checkout {
+    background-color: grey;
+    color: white;
+}
+
+.btn-checkout:hover {
+    background-color: #218838;
+}
+
+.btn-checkout:active {
+    background-color: #1c7430;
+}
